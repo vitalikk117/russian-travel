@@ -1,4 +1,4 @@
-.place__paragraphs_paragraph {
+.place__paragraphs__paragraph {
  max-width: 484px;
  font-family: 'Inter';
  font-style: normal;
@@ -11,18 +11,18 @@
  color: #FFFFFF;
 }
 
-.place__paragraphs_paragraph:last-child {
+.place__paragraphs__paragraph:last-child {
   margin-bottom: 0;
 }
 
 @media screen  and (max-width: 1279px) {
-  .place__paragraphs_paragraph {
+  .place__paragraphs__paragraph {
   max-width: 456px;
   }
 }
 
 @media screen  and (max-width: 1023px) {
-  .place__paragraphs_paragraph {
+  .place__paragraphs__paragraph {
   max-width: 352px;
   font-size: 16px;
   line-height: 26px;
