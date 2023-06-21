@@ -1,10 +1,11 @@
 .footer__links {
   max-width: 462px;
-  min-height: 18px;
   display: flex;
   justify-content: space-between;
   margin: 0;
+  padding: 0;
   margin-right: 526px;
+  list-style-type: none;
   flex: 1;
 }
 
@@ -25,8 +26,7 @@
 @media screen  and (max-width: 767px) {
   .footer__links {
   max-width: 158px;
-  min-height: 248px;
   flex-flow: column;
-  justify-content: space-between;
+  gap: 32px;
   }
 }

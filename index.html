@@ -11,28 +11,30 @@
 
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="./images/header__logo/__logo.svg" alt="карта и надпись Россия">
-    <a class="header__lang-link" href="#">Ru</a>
-    <a class="header__lang-link" href="#">En</a>
+    <img class="header__logo" src="./images/__logo.svg" alt="карта и надпись Россия">
+    <div class="header__lang-menu">
+      <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+      <a class="header__lang-link" href="#">En</a>
+    </div>
   </header>
   <main>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
-      <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src="./images/__image__train.jpg"
-        alt="карта маршрута путешествия с пассажиром у окна поезда">
-      <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
+        alt="карта маршрута путешествия на фоне с  лежащей пассажиркой у окна поезда">
+      <p class="lead__caption">ваша полка &mdash; верхняя</p>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
-      <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели?&nbsp;На самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без&nbsp;миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила&nbsp;их в свою &laquo;Ладу&raquo; и
+      <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели?&nbsp;На самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно&nbsp;без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов.Как,&nbsp;например,&nbsp;Вера Башмакова &mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила&nbsp;их в свою &laquo;Ладу&raquo; и
         проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали&nbsp;и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li><span class="intro__item">Часовых поясов </span>11</li>
+        <li><span class="intro__item">Объектов природного наследия ЮНЕСКО </span>12</li>
+        <li><span class="intro__item">Объектов культурного наследия ЮНЕСКО </span>16</li>
+        <li><span class="intro__item">Природных заповедников </span>105</li>
+        <li><span class="intro__item">Аэропортов </span>241</li>
       </ul>
     </section>
     <section class="photo-grid">
@@ -103,12 +105,13 @@
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
         </div>
-        <img class="place__image" src="./images/__zimniy-baikal.jpg" alt="заледенившая водная гладь озера">
+        <img class="place__image" src="./images/__zimniy-baikal.jpg" alt="заледеневшая гладь озера">
         <div class="place__paragraphs">
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
             в мире. Многие также знают, что это самый большой источник пресной воды и&nbsp;одно из&nbsp;красивейших
             мест в&nbsp;России.</p>
-          <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место&nbsp;для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя&nbsp;к&nbsp;мотоциклу, и&nbsp;тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
+          <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место&nbsp;для соревнований по скийорингу.
+            Это такой вид спорта, когда лыжник привязывает себя&nbsp;к&nbsp;мотоциклу, и&nbsp;тандем старается развить как&nbsp;можно бóльшую скорость на льду. В марте 2019 года на
             фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
       </div>
@@ -130,23 +133,24 @@
       </div>
     </section>
     <section class="cover">
-      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
         <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе &mdash; путешествие от столицы до Байкала на электричках.</p>
-        <div class="cover__overlay"></div>
       </a>
     </section>
-    <section class="footer">
-      <div class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru/maps">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru/maps">Путешествия</a>
-      </div>
-      <p class="footer__copyright">&copy;&nbsp;2023. Виталий Коровин</p>
-    </section>
   </main>
+  <footer class="footer">
+      <nav class="footer__menu">
+        <ul class="footer__links">
+          <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+          <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li><a class="footer__link" href="https://calendar.yandex.ru/maps">Календарь</a></li>
+          <li><a class="footer__link" href="https://travel.yandex.ru/maps">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy;&nbsp;2023. Виталий Коровин</p>
+    </footer>
 </body>
 
 </html>
