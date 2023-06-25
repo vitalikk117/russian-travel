@@ -2,10 +2,7 @@
   max-width: 1184px;
   min-height: 740px;
   text-decoration: none;
-  background-image: url('../../../images/__background_cover_train.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: center / cover no-repeat  url("../../../images/__background_cover_train.jpg");
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -13,6 +10,7 @@
   align-items: center;
   position: relative;
   z-index: 0;
+  transition: opacity .5s easy;
   box-sizing: border-box;
 }
 
@@ -26,7 +24,6 @@
   background: #2a2c2f;
   opacity:.3;
   z-index: -1;
-  transition: opacity .5s easy;
 }
 
 .cover__link:hover::before {
@@ -48,6 +45,7 @@
 
 @media screen  and (max-width: 767px) {
   .cover__link {
+  max-width: 320px;
   min-height: 200px;
   }
 }

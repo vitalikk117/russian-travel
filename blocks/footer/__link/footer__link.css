@@ -8,12 +8,11 @@
  text-decoration: none;
  margin-right: 18px;
  opacity: 1;
+ transition: opacity .5s easy;
  color: #fff;
 }
 
 .footer__link:hover {
-  transition-duration: .5s;
-  transition-timing-function: linear;
   opacity: .8;
 }
 
