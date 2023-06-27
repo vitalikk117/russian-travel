@@ -11,12 +11,6 @@
   text-transform: uppercase;
 }
 
-@media screen  and (max-width: 1279px) {
-  .place__url-heading {
-  max-width: 456px;
-  }
-}
-
 @media screen  and (max-width: 1023px) {
   .place__url-heading {
   max-width: 352px;
@@ -27,9 +21,6 @@
 @media screen  and (max-width: 767px) {
   .place__url-heading {
   max-width: 288px;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 2px;
   padding-bottom: 10px;
   }
 }

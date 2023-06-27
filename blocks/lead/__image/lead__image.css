@@ -14,10 +14,3 @@
   display: block;
   }
 }
-
-@media screen  and (max-width: 767px) {
-  .lead__image {
-
-  max-width: 100%;
-  }
-}
